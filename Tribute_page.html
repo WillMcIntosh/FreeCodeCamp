@@ -6,29 +6,39 @@
     body {
         margin-top: 40px;
     }
-    #info-text {
-        font-family: Cutive;
-        font-size: 16px;
-        background-color: #6A8180;
-        margin: 0px 40px 20px 40px;
-        border-width: 0px;
-    }
     #title-well {
         font-family:Cutive;
         text-align: center;
         text-color: blue;
         font-size: 32px;
-        background-color: green;
-        margin: 20px 40px 20px 40px;
+        background-color: #6A8180;
+        margin: 20px 10px 20px 10px;
+        padding:  5px;
+        border-width: 0px;
+    }
+    #left-info-text {
+        font-family: Cutive;
+        font-size: 16px;
+        background-color: #6A8180;
+        margin: 0px 10px 20px 10px;
+        border-width: 0px;
+    }
+    #right-info-text {
+        font-family: Cutive;
+        font-size: 16px;
+        background-color: #6A8180;
+        margin: 0px 10px 20px 10px;
         border-width: 0px;
     }
     .container-fluid {
         margin: 0px 100px 20px 100px;
-        background-color: grey;
-        border-color: grey;
+        background-color: #B3B3CC;
+        border-color: #B3B3CC;
         border-width: 10px;
         border-style: solid;
         border-radius: 5px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
     .green-text {
         color:green;
@@ -39,9 +49,10 @@
     .additional-title {
         color: #000000;
         font-size: 16px;
+        padding: 0px;
     }
     .main-text {
-        background-color: yellow;
+        background-color: white;
         text-align: center;
     }
     .bottom-text {
@@ -58,19 +69,24 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-                <div class="well" id="info-text">
+                <div class="well" id="left-info-text">
                     <p class="green-text">  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
-                <div>
-                    <ul>
-                        <li>cats</li>
-                        <li>cats</li>
-                        <li>more cats</li>
-                    </ul>
+            </div>
+            <div class="col-md-6">
+                <div class="well" id="right-info-text">
+                    <p class="white-text">  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
             </div>
-        </div>
 
+        </div>
+        <div>
+            <ul>
+                <li>some cats</li>
+                <li>cats</li>
+                <li>more cats</li>
+            </ul>
+        </div>
         <p class="main-text">  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
     </div>
