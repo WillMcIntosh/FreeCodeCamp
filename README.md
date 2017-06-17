@@ -1,4 +1,4 @@
 # FreeCodeCamp
 FreeCodeCamp Projects
 
-I'm learning to use git as well as organising my work between my laptop and desktop computers.
+Tribute Page: Build a tribute page with an image and text and one link to an external source of additional information. First assignment for Free Code Camp.
