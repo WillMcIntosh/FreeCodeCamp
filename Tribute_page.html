@@ -1,11 +1,33 @@
 <link href='https://fonts.googleapis.com/css?family=Cutive' rel='stylesheet'>
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
 
-
 <style>
     body {
         margin-top: 20px;
         font-family: Cutive, monospace;
+    }
+    h1 {
+        font-size: 44px;
+    }
+/*
+How (i think) I got hanging indents in my list items:
+padding-left on li moves entire list item without bullet point
+text-indent moves the indent for the second line when negative and also moves the first line to the left
+margin-left moves entire item including bullet point
+list-style-position outside puts the bullet outside of the padding
+
+increasing text-indent and the increasing padding left for the li
+element creates a hanging indent
+*/
+    ul {
+        padding-left: 0px;
+        list-style-position: outside;
+    }
+    ul li {
+        margin: 5px;
+        padding-left: 60px;
+        text-indent: -3.75em;
+        margin-left: 1em;
     }
     #title-well {
         font-family: Cutive, monospace;
@@ -48,9 +70,6 @@
         padding-left: 50px;
         padding-right: 50px;
     }
-    .green-text {
-        color:green;
-    }
     .white-text {
         color: #FFFFFF;
     }
@@ -59,33 +78,9 @@
         font-size: 16px;
         padding: 0px;
     }
-    .main-text {
-        background-color: white;
-        text-align: center;
-    }
-    .info-text {
-        color: #000000;
-        font-size: 12px;
-        font-family: Cutive;
-        text-align: center;
-    }
     .bottom-text {
         font-size: 10;
         text-align: center;
-    }
-    h1 {
-        font-size: 44px;
-    }
-    ul {
-        padding-left: 0px;
-        list-style-position: outside;
-    }
-
-    ul li {
-        margin: 5px;
-        padding-left: 60px;
-        text-indent: -3.75em;
-        margin-left: 2.5em;
     }
 </style>
 
