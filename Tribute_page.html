@@ -4,35 +4,44 @@
 
 <style>
     body {
-        margin-top: 40px;
+        margin-top: 20px;
+        font-family: Cutive, monospace;
     }
     #title-well {
-        font-family:Cutive;
+        font-family: Cutive, monospace;
         text-align: center;
         text-color: blue;
-        background-color: #6A8180;
+        background-color: #68B9B5;
         margin: 20px 10px 20px 10px;
-        padding:  5px;
+        padding: 5px;
         border-width: 0px;
     }
-    #left-info-text {
-        font-family: Cutive;
+    #left-well {
         font-size: 16px;
-        background-color: #97CBEC;
+        background-color: #C0DADA;
         margin: 0px 10px 20px 10px;
         border-width: 0px;
+        text-indent: 2.0em;
     }
-    #right-info-text {
-        font-family: Cutive;
-        font-size: 16px;
-        background-color: #6A8180;
+    #right-well {
+        background-color: #C0DADA;
         margin: 0px 10px 20px 10px;
         border-width: 0px;
+        color: #000000;
+        font-size: 12px;
+        text-align: center;
+    }
+    #bottom-well {
+        font-size: 16px;
+        background-color: #C0DADA;
+        margin: 0px 10px 20px 10px;
+        border-width: 0px;
+        text-align: center;
     }
     .container-fluid {
-        margin: 0px 100px 20px 100px;
-        background-color: #E6E6E6;
-        border-color: #E6E6E6;
+        margin: 0px 200px 20px 200px;
+        background-color: #F3F3F3;
+        border-color: #F3F3F3;
         border-width: 10px;
         border-style: solid;
         border-radius: 5px;
@@ -54,12 +63,18 @@
         background-color: white;
         text-align: center;
     }
+    .info-text {
+        color: #000000;
+        font-size: 12px;
+        font-family: Cutive;
+        text-align: center;
+    }
     .bottom-text {
         font-size: 10;
         text-align: center;
     }
     h1 {
-      font-size:46px;
+        font-size: 44px;
     }
 </style>
 
@@ -67,33 +82,39 @@
     <div class="container-fluid">
         <div class="well" id="title-well">
             <h1 class="white-text">John Barrowman</h1>
-            <h2 class="additional-title">More Text</h2>
+            <h2 class="additional-title">"An Entertainer with a capital E"</h2>
         </div>
         <div class="row">
             <div class="col-md-6">
-                <div class="well" id="left-info-text">
-                    <p class="green-text">  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<a target="_blank" href="http://www.stonewall.org.uk/about-us">Stonewall</a></p>
+                <div class="well" id="left-well">
+                    <p>John Barrowman is a Scottish-American entertainer who made his debut in theatre but has since acted in films and televisions shows, been a television presenter, written two autobiographies and two novels, and has even released multiple studio albums. His most famous television role is Captain Jack Harkness, a 51st century time traveler which he played in both Doctor Who and later the popular spin-off series Torchwood. </p>
+                    <p>In addition to his entertainment career, Barrowman is a civil rights advocate for the LGBT community, and has worked with <a target="_blank" href="https://www.stonewall.org.uk/">Stonewall</a>, a LGBT rights charity in the United Kingdom, on the “Education for All” campaign to combat homophobia in schools.
+                    </p>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
                 </div>
             </div>
             <div class="col-md-6">
-              <!--  <div class="well" id="right-info-text">
-                    <p class="white-text">  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <div class="well" id="right-well">
+                    <img class="img-responsive"  src="https://upload.wikimedia.org/wikipedia/commons/3/37/John_Barrowman_Supanova_2014.jpg" alt="John Barrowman Wikipedia Image 2014" />
+                    <p>                    </p>
+                    <p>
+                        John Barrowman at Supanova Pop Culture 2014. Image Source: <a target= "_blank" href="https://en.wikipedia.org/wiki/John_Barrowman">Wikipedia.</a>
+                    </p>
                 </div>
-              -->
-              <a target= "_blank" href="https://en.wikipedia.org/wiki/John_Barrowman"><img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/3/37/John_Barrowman_Supanova_2014.jpg" alt="John Barrowman Wikipedia Image 2014" /> </a>
+
+
             </div>
         </div>
-        <div row="row">
-            <ul>
-                <li>some cats</li>
-                <li>cats</li>
-                <li>more cats</li>
-            </ul>
+        <div class="well" id="bottom-well">
+            <p>If you would like to learn more about John Barrowman or catch up on his latest work, please visit his <a target="_blank" href="http://www.johnbarrowman.com/index.html">official website.</a>
+            </p>
         </div>
-        <p class="main-text">  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a target="_blank" href="http://www.johnbarrowman.com/index.html">Official Website</a></p>
-
     </div>
     <p class="bottom-text">
-        hello again, world
+        Written and coded by <a target="_blank" href="https://www.github.com/WillMcIntosh">William McIntosh.</a>
     </p>
 </body>
