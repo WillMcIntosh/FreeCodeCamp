@@ -6,37 +6,71 @@
 </head>
 
 <style>
-body {
-    margin-top: 20px;
-    font-family: Cutive, monospace;
-}
-h1 {
-    font-size: 4vw;
-}
-#title-well {
-    margin: 20px 10px 20px 10px;
-    padding: 5px;
-    border-width: 0px;
-    background-color: #68B9B5;
-    text-align: center;
-    text-color: blue;
-    font-family: Merriweather, serif;
-}
-.container-fluid {
-    margin: 0px;
-    border-width: 10px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: #F3F3F3;
-    background-color: #F3F3F3;
-}
+    body {
+        margin-top: 20px;
+        font-family: Cutive, monospace;
+    }
+    h1 {
+        font-size: 4vw;
+    }
+    #title-well {
+        padding: 5px;
+        border-width: 0px;
+        background-color: #68B9B5;
+        text-align: left;
+        text-color: blue;
+        font-family: Merriweather, serif;
+    }
+    #aboutme-well {
+        margin: 20px 10px 20px 10px;
+        padding: 5px;
+        border-width: 0px;
+        background-color: #68B9B5;
+        text-align: left;
+        text-color: blue;
+    }
+    #about-info {
+        margin: 20px 10px 20px 10px;
+        padding: 5px;
+        border-width: 0px;
+        /*background-color: #68B9B5; */
+        text-align: left;
+    }
+    .container-fluid {
+        margin: 0px;
+        border-width: 10px;
+        border-style: solid;
+        border-radius: 5px;
+        border-color: #F3F3F3;
+        background-color: #F3F3F3;
+    }
+    .rounded-image-border {
+      border-color: green;
+      border-width: 10px;
+      border-style: solid;
+      border-radius: 75%;
+      }
 </style>
 
 <body>
     <div class="container-fluid">
-        <div class="well" id="title-well">
+        <div class="well" id="title-bar">
             <h1>Derp</h1>
             <h2>more derp</h2>
+        </div>
+        <div class="well" id="aboutme-well">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="well" id="about-info">
+                        <p>
+                            hello my name is Will
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                        <img class="img-responsive rounded-image-border" src="http://7bna.net/images/cute-cat-pics/cute-cat-pics-37.jpg" alt="self portrait">
+                </div>
+            </div>
         </div>
         <div class="row">
 
