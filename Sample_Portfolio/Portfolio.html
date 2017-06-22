@@ -14,11 +14,12 @@
     h1 {
         font-size: 4vw;
     }
-    #title-well {
+    #title-header {
         position: fixed;
+        z-index: 1;
         top: 0px;
         width: 100%;
-        height: 150 px;
+        /*height: 125 px;*/
         padding: 5px;
         border-width: 0px;
         background-color: #68B9B5;
@@ -27,6 +28,7 @@
         font-family: Merriweather, serif;
     }
     #aboutme-well {
+        position: relative;
         margin: 20px 10px 20px 10px;
         padding: 5px;
         border-width: 0px;
@@ -85,19 +87,19 @@
 
 
 <body>
-    <div class="well" id="title-well">
-    <h2>Derp</h2>
-    <div class="row">
-        <div class="col-md-4">
-            <h3>more derp</h3>
-        </div>
-        <div class="col-md-8" style="text-align: right">
-            <button class="btn btn-default target" id="portfolio-btn">
-                Portfolio<!--<a href="#portfolio-well">Portfolio</a>-->
-            </button>
+    <div class="w3-container" id="title-header">
+        <h2>Derp</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>more derp</h3>
+            </div>
+            <div class="col-md-8" style="text-align: right">
+                <button class="btn btn-default target" id="portfolio-btn">
+                    Portfolio<!--<a href="#portfolio-well">Portfolio</a>-->
+                </button>
+            </div>
         </div>
     </div>
-</div>
     <div class="container-fluid">
 
         <div class="well" style="margin-top: 120px" id="aboutme-well">
@@ -118,6 +120,11 @@
                 <h2 class="section-title">
                     Portfolio
                 </h2>
+                <div>
+                    <p>
+                        some text or something
+                    </p>
+                </div>
                 <ul>
                     <li>cats</li>
                     <li>cats</li>
@@ -137,7 +144,22 @@
                 <h2 class="section-title">
                     Contact
                 </h2>
+                <div>
+                    <p>
+                        some text or something
+                    </p>
+                </div>
                 <ul>
+                    <li>cats</li>
+                    <li>cats</li>
+                    <li>cats</li>
+                    <li>cats</li>
+                    <li>cats</li>
+                    <li>cats</li>
+                    <li>cats</li>
+                    <li>cats</li>
+                    <li>cats</li>
+                    <li>cats</li>
                     <li>cats</li>
                     <li>cats</li>
                     <li>cats</li>
