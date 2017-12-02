@@ -14,29 +14,33 @@ video#bgVideo {
     z-index: -100;
 }
 
+.greyCover {
+    background-color: rgba(211, 211, 211, 0.6);
+}
 #home {
     background: transparent;
     color: #000;
-    text-align: left;
-    padding-top: 7%;
-    padding-bottom: 15%;
+    text-align: right;
+    padding-top: 10%;
+    padding-bottom: 25%;
+    padding-right: 12%;
 }
 
 #home h1 {
-    font-size: 3em; 
+    font-size: 3.5em; 
     font-weight: bold;
 }
 #home h2 {
-    font-size: 1.7em;
+    font-size: 2em;
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 800px;
 }
 
 #about {
-    background: rgba(35, 38, 140, 0.4);
     color: #000;
     text-align: center;
-    padding-top: 120px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
