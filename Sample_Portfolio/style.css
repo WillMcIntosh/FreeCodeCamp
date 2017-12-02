@@ -5,8 +5,6 @@ body {
 
 }
 /* set video as background of page and set to fixed, z-index so it's behind */
-    
-
 video#bgVideo {
     position: fixed;
     height: 100%;
@@ -16,3 +14,29 @@ video#bgVideo {
     z-index: -100;
 }
 
+#home {
+    background: transparent;
+    color: #000;
+    text-align: left;
+    padding-top: 7%;
+    padding-bottom: 15%;
+}
+
+#home h1 {
+    font-size: 3em; 
+    font-weight: bold;
+}
+#home h2 {
+    font-size: 1.7em;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+#about {
+    background: rgba(35, 38, 140, 0.4);
+    color: #000;
+    text-align: center;
+    padding-top: 120px;
+}
