@@ -1,0 +1,18 @@
+/* style body element as relative so scrollspy works */
+body {
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+
+}
+/* set video as background of page and set to fixed, z-index so it's behind */
+    
+
+video#bgVideo {
+    position: fixed;
+    height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    z-index: -100;
+}
+
