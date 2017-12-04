@@ -65,54 +65,62 @@
       <div id="home" class="jumbotron">
         <div class="container">
           <h1>Will McIntosh</h1>
-          <h2>Web developer, Linux nerd, Open Source Enthusiast.</h2>
+          <h2>Web Developer, Linux Nerd, Open Source Enthusiast.</h2>
         </div>
       </div>
 
       <!-- create about section with a paragraph about me -->
       <div id="about">
         <div class="container">
-          <p>Lorem Ipsum</p>
+          <p>Welcome to my portfolio! My name is Will McIntosh and I am an
+            aspiring web developer currently working through Free Code Camp's
+            front end track after working on a web development course on <a
+              href="https://www.udemy.com/complete-web-development-course/learn/v4/overview"
+              target="_blank">Udemy</a> by Development Island. This page will
+            satisfy the second basic front end development challenge of
+            building a personal portfolio page. <br>
 
-         <p>Lorem Ipsum</p>
-          <p>Lorem Ipsum</p>
-          <p>Lorem Ipsum</p>
-          <p>Lorem Ipsum</p>
-          <p>Lorem Ipsum</p>
-          <p>Lorem Ipsum</p>
-          <p>Lorem Ipsum</p>
-          <p>Lorem Ipsum</p>
-          <p>Lorem Ipsum</p>
-          <p>Lorem Ipsum</p>
-          <p>Lorem Ipsum</p>
+            Below, you will find some of my recent projects, as well as my
+            social media contact info. 
+          </p>
         </div>
       </div>
       <!-- create portfolio section with a grid of thumbnails for projects -->
-      <div class="portfolio">
+      <div id="portfolio">
         <div class="container-fluid">
           <div class="row">
 
             <div class="col-md-3">
-              <img class="projectThumbnail" src="" alt="">
-              <h2>Project Title</h2>
+              <img class="projectThumbnail" src="images/JSDrum.png" alt="">
+              <h2>JavaScript Drum Kit</h2>
+              <p>Using provided HTML, CSS, and sounds, followed along with <a
+                  href="https://javascript30.com/">JS30</a>
+                by Wes Bos to create a drum kit by using an even listener for
+                keystrokes using
+                <a href="http://keycode.info/" target="_blank">keycode website</a>
+                to determine keycodes for the home row. <br>
+
+                When the key is pressed, the function checks if audio is 
+                associated with that key and plays the audio. The style of the
+                "key" is briefly changed using a 'transitionend' event listener
+                to remove the CSS class using .classList.remove</p>
+            </div>
+
+            <div class="col-md-3">
+              <img class="projectThumbnail" src="images/Drawing.png" alt="">
+              <h2>Drawing App</h2>
               <p>Project description.</p>
             </div>
 
             <div class="col-md-3">
-              <img class="projectThumbnail" src="" alt="">
-              <h2>Project Title</h2>
+              <img class="projectThumbnail" src="images/Tribute.png" alt="">
+              <h2>Tribute Page</h2>
               <p>Project description.</p>
             </div>
 
             <div class="col-md-3">
-              <img class="projectThumbnail" src="" alt="">
-              <h2>Project Title</h2>
-              <p>Project description.</p>
-            </div>
-
-            <div class="col-md-3">
-              <img class="projectThumbnail" src="" alt="">
-              <h2>Project Title</h2>
+              <img class="projectThumbnail" src="images/Math-Game.png" alt="">
+              <h2>Math Game</h2>
               <p>Project description.</p>
             </div>
 
@@ -121,14 +129,14 @@
       </div>
 
       <!-- create contact section with buttons for various social media -->
-      <div class="contact">
+      <div id="contact">
         <div class="container-fluid">
         </div>
       </div>
 
       <!-- create a footer? maybe?  -->
       <div class="footer">
-        <div class="container">
+        <div class="container-fluid">
           <p>&copy; Will McIntosh 2017.</p>
         </div>
       </div>
